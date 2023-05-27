@@ -1,0 +1,1392 @@
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+
+body {
+  background-color: #ADEFD1FF;
+
+
+
+
+text-decoration: none;
+}
+
+
+/***************************************************
+--------------------- N A V -------------------
+*****************************************************/
+#navm{
+
+display: none;}
+
+
+#nav{
+left:0%;
+top: 0%;
+position: fixed;
+border-radius: 10px 10px ;
+background-color: #00203FFF;
+height:50px;
+border: 4px outset white;
+
+
+animation: navmov 1s;
+animation-fill-mode: forwards;
+}
+
+@keyframes navmov {
+
+  from {width: 0%;}
+  
+  to {width: 99.3%;}
+}
+
+
+/*--------------- Midea query ( 900px )------------------*/
+
+
+
+@media only screen and (max-width: 900px) {
+
+
+
+
+ #nav{display: none;}
+  
+ #navm  
+ {display: block;
+ left:0%;
+top: 0%;
+position: fixed;
+border-radius: 10px 10px ;
+background-color: #00203FFF;
+height:50px;
+border: 4px outset white;
+animation: navmov 2s;
+animation-fill-mode: forwards;
+}
+
+
+@keyframes navmov {
+
+  from {width: 0%;}
+  
+  to {width: 97.5%;}
+                 }
+
+
+
+
+
+}
+
+
+/***************************************************
+--------------------- M E N U -------------------
+*****************************************************/
+
+#menulist{
+  display: none;
+
+}
+
+
+#menu{
+display:none;
+position: fixed;
+  color:  #ADEFD1FF;
+
+}
+
+#menub{
+display:none;
+position: fixed;
+  color: #ADEFD1FF;
+
+}
+
+
+
+
+
+/*--------------- Midea query ( 900px )------------------*/
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+
+ #menu{
+  left:2%; 
+  display: block;
+  color: white;
+  font-size: 30px;
+  top: 11px;}
+  
+  
+  #menub{
+  left:2%; 
+  display: none;
+  color: white;
+  font-size: 30px;
+  top: 11px;}
+
+
+#menulist{
+  padding-left: 80px;
+  position : fixed;
+    text-align: center;
+  display: block;
+  top: 8%;
+  width: 72.2%;
+  left:-100%;
+  height: 340px;
+  border-radius: 50px 50px 50px 50px;
+  background-color:#ADEFD1FF;
+  border: 4px outset white;
+  transition: all 1.0s ease;
+            }
+
+
+
+
+
+#menuhome{
+
+    text-align: center;
+  font-size: 30px;
+  color: red;
+  background-color: #00203FFF;
+  text-align: center;
+  left:75%;
+  width: 70%;
+  border-radius: 50px 50px 50px 50px;
+
+  border: 4px outset white;}
+  
+  
+  
+#menuabout{
+
+
+  font-size: 30px;
+  color: red;
+  background-color: #00203FFF;
+  text-align: center;
+  left:75%;
+  width: 70%;
+  border-radius: 50px 50px 50px 50px;
+
+  border: 4px outset white;}
+
+
+
+
+#menunews{
+
+
+  font-size: 30px;
+  color: red;
+  background-color: #00203FFF;
+  text-align: center;
+  left:75%;
+  width: 70%;
+  border-radius: 50px 50px 50px 50px;
+
+  border: 4px outset white;}
+
+
+#menucontact{
+
+
+  font-size: 30px;
+  color: red;
+  background-color: #00203FFF;
+  text-align: center;
+  left:75%;
+  width: 70%;
+  border-radius: 50px 50px 50px 50px;
+
+  border: 4px outset white;}
+
+
+}
+  
+
+
+/***************************************************
+--------------------- L O G O -------------------
+*****************************************************/
+
+
+
+@keyframes Rj {
+  
+   0%   { left: -90%; top:8px ;}
+
+   100% { left: 3%; top: 8px;}   }
+   
+@keyframes Rk {
+  
+   0%   { left: -90%; top:8px ;}
+  
+   100% { left: 5%; top: 8px;}   }
+
+@keyframes Rl {
+  
+   0%   { left: -90%; top:8px;}
+   
+   100% { left: 6.5%; top: 8px;}   }
+
+@keyframes Rm {
+  
+   0%   { left: -90%; top:8px ;}
+   
+   100% { left: 8%; top: 8px;}   }
+@keyframes Rn {
+  
+   0%   { left: -90%; top:8px;}
+  
+   100% { left: 9.5%; top: 8px;}   }
+@keyframes Ro {
+  
+   0%   { left: -90%; top:8px ;}
+   
+   100% { left: 10.5%; top: 8px;}   }
+@keyframes Rp {
+  
+   0%   { left: -90%; top:8px ;}
+   
+   100% { left: 12.4%; top: 8px;}   }
+@keyframes Rq {
+  
+   0%   { left: -90%; top: 8px ;}
+   
+   100% { left: 13.7%; top: 8px;}   }
+@keyframes Rr {
+  
+   0%   { left: -90%; top: 8px ;}
+   
+   100% { left: 15%; top: 8px;}   }
+
+
+#R{position: fixed; top: 8px; font-size: 34px; color: red; left: 3%;      animation: Rj 1.1s; animation-fill-mode: forwards; }
+#a{position: fixed; top: 8px; font-size: 34px; color: red; left: 5%;      animation: Rk 1.2s; animation-fill-mode: forwards; }
+#h{position: fixed; top: 8px; font-size: 34px; color: red; left: 6.5%;    animation: Rl 1.3s; animation-fill-mode: forwards; }
+#u{position: fixed; top: 8px; font-size: 34px; color: red; left: 8%;      animation: Rm 1.4s; animation-fill-mode: forwards; }
+#l{position: fixed; top: 8px; font-size: 34px; color: red; left: 9.5%;    animation: Rn 1.5s; animation-fill-mode: forwards; }
+#X{position: fixed; top: 8px; font-size: 34px; color: red; left: 10.5%;   animation: Ro 1.6s; animation-fill-mode: forwards; }
+#e{position: fixed; top: 8px; font-size: 34px; color: red; left: 12.4%;   animation: Rp 1.7s; animation-fill-mode: forwards; }
+#es{position: fixed; top: 8px; font-size: 34px; color: red; left: 13.7%;  animation: Rq 1.8s; animation-fill-mode: forwards; }
+#ls{position: fixed; top: 8px; font-size: 34px; color: red; left: 15%;    animation: Rr 1.9s; animation-fill-mode: forwards; }
+
+
+/*--------------- Midea query ( 900px )------------------*/
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+  
+  #LOGO{
+  left: 12%;}
+  
+
+
+@keyframes Ra {
+  
+   0%   { left: -90%; top:8px;}
+   100% { left: 13%; top: 8px;}   }
+   
+@keyframes Rb {
+  
+   0%   { left: -90%; top:8px;}
+   100% { left: 22%; top: 8px;}   }
+
+@keyframes Rc {
+  
+   0%   { left: -90%; top:8px; }
+   100% { left: 26%; top: 8px; }   }
+
+@keyframes Rd {
+  
+   0%   { left: -90%; top:8px;}
+   100% { left: 32%; top: 8px;}   }
+@keyframes Re {
+  
+   0%   { left: -90%; top: 8px;}
+   100% { left:  41%; top: 8px;}   }
+@keyframes Rf {
+  
+   0%   { left: -90%; top: 8px;}
+   100% { left:  48%; top: 8px;}   }
+@keyframes Rg {
+  
+   0%   { left: -90%; top: 8px;}
+   100% { left:  55%; top: 8px;}   }
+@keyframes Rh {
+  
+   0%   { left: -90%; top: 8px;}
+   100% { left:  61%; top: 8px;}   }
+@keyframes Ri {
+  
+   0%   { left: -90%; top: 8px;}
+   100% { left:  67%; top: 8px;}   }
+
+
+
+
+
+
+
+
+
+
+
+
+#R{position: fixed; top: 8px;  font-size: 34px;  color: red; left: 13%; animation: Ra 1s; animation-fill-mode: forwards;}
+#a{position: fixed; top: 8px; font-size: 34px; color: red; left: 20%; animation: Rb 1.1s; animation-fill-mode: forwards;}
+#h{position: fixed; top: 8px; font-size: 34px; color: red; left: 26%; animation: Rc 1.2s; animation-fill-mode: forwards; }
+#u{position: fixed; top: 8px; font-size: 34px; color: red; left: 32%; animation: Rd 1.3s; animation-fill-mode: forwards; }
+#l{position: fixed; top: 8px; font-size: 34px; color: red; left: 39%; animation: Re 1.4s; animation-fill-mode: forwards;}
+#X{position: fixed; top: 8px; font-size: 34px; color: red; left: 43%; animation: Rf 1.5s; animation-fill-mode: forwards; }
+#e{position: fixed; top: 8px; font-size: 34px; color: red; left: 50%; animation: Rg 1.6s; animation-fill-mode: forwards; }
+#es{position: fixed; top: 8px; font-size: 34px; color: red; left: 55%; animation: Rh 1.7s; animation-fill-mode: forwards; }
+#ls{position: fixed; top: 8px; font-size: 34px; color: red; left: 60%; animation: Ri 1.8s; animation-fill-mode: forwards;}
+
+
+
+  
+  }
+
+
+/***************************************************
+--------------------- L O G I N -------------------
+*****************************************************/
+
+
+#switch{
+
+position: fixed;
+height: 40px;
+right: 4%;
+top: 10px;
+}
+
+
+#switchx{
+
+position: fixed;
+right: 4%;
+display: none;
+color: white;
+font-size: 35px;
+top: 11px;
+}
+
+#login{
+
+ padding-top: 20px;
+  padding-left: 30px;
+  position : fixed;
+    text-align: center;
+     right: -100%;
+  top: 10%;
+  width: 25%;
+  height: 300px;
+  border-radius: 50px 50px 50px 50px;
+  background-color:#ADEFD1FF;
+  border: 4px outset white;
+            }
+
+
+#user{
+
+    text-align: center;
+
+  font-size: 90px;
+  color: white;
+  background-color: #00203FFF;
+  text-align: center;
+  width: 30%;
+  border-radius: 90px;
+
+  border: 8px outset white;}
+
+
+
+#idhome{
+
+    text-align: center;
+margin-top: 20px;
+  font-size: 30px;
+  color: red;
+  background-color: #00203FFF;
+  text-align: center;
+  width: 90%;
+  border-radius: 50px 50px 50px 50px;
+
+  border: 4px outset white;}
+
+
+
+
+
+#pashome{
+ 
+     margin-top: 8px;
+font-size: 30px;
+  color: red;
+  background-color: #00203FFF;
+  text-align: center;
+  width: 90%;
+  border-radius: 50px 50px 50px 50px;
+
+  border: 4px outset white;}
+
+
+
+#sub{
+margin-top: 20px;
+font-size: 30px;
+  color: red;
+  background-color: #ADEFD1FF;
+  text-align: center;
+  width: 90%;
+  border-radius: 50px 50px 50px 50px;
+
+  border: 4px outset white;}
+
+
+
+
+/*--------------- Midea query ( 900px )------------------*/
+
+
+@media only screen and (max-width: 900px) {
+
+#switch{
+right: 9%;
+position: fixed;
+height: 40px;
+margin-right: -5%;
+top: 10px;
+}
+
+
+#switchx{
+display:none;
+position: fixed;
+right: 6%;
+color: white;
+font-size: 30px;
+top: 11px;
+}
+
+#login{
+
+ transition: all 0.9s ease;
+ right: -100%;
+ padding-top: 20px;
+  padding-left: 30px;
+  position : fixed;
+    text-align: center;
+  display: block;
+  top: 8%;
+  width: 86%;
+  height: 320px;
+  border-radius: 50px 50px 50px 50px;
+  background-color:#ADEFD1FF;
+  border: 4px outset white;
+            }
+
+
+#user{
+
+    text-align: center;
+
+  font-size: 90px;
+  color: white;
+  background-color: #00203FFF;
+  text-align: center;
+  width: 30%;
+  border-radius: 90px;
+
+  border: 8px outset white;}
+
+
+
+#idhome{
+
+    text-align: center;
+margin-top: 20px;
+  font-size: 30px;
+  color: red;
+  background-color: #00203FFF;
+  text-align: center;
+  width: 90%;
+  border-radius: 50px 50px 50px 50px;
+
+  border: 4px outset white;}
+
+
+
+
+
+#pashome{
+ 
+     margin-top: 8px;
+font-size: 30px;
+  color: red;
+  background-color: #00203FFF;
+  text-align: center;
+  width: 90%;
+  border-radius: 50px 50px 50px 50px;
+
+  border: 4px outset white;}
+
+
+
+#sub{
+margin-top: 20px;
+font-size: 30px;
+  color: red;
+  background-color: #ADEFD1FF;
+  text-align: center;
+  width: 90%;
+  border-radius: 50px 50px 50px 50px;
+
+  border: 4px outset white;}
+
+
+}
+
+/***************************************************
+---------------- N A V ( H  O M E )------------------
+*****************************************************/
+
+
+
+.home{
+
+top:25%;
+border-radius: 10px 10px;
+position: relative;
+font-size: 0px;
+color: #00203FFF;
+background-color: #ADEFD1FF;
+animation: mymoved 1s infinite;
+animation-direction: alternate;
+border: 4px outset white;
+padding: 2px 20px;
+}
+
+@keyframes mymoved {
+  
+   0%  { left: 48.2%; font-size: 20px;}
+
+  100% {left: 48.2%; font-size: 20px; }
+  
+
+
+}
+
+
+/*--------------- Midea query ( 900px )------------------*/
+
+@media only screen and (max-width: 900px) {
+  
+  
+  .home{
+  display: none;}
+  
+ 
+  }
+
+/***************************************************
+------------- N A V ( A B O U T )--------------------
+*****************************************************/
+
+.about{
+border-radius: 10px 10px;
+position: relative;
+background-color: #ADEFD1FF;
+font-size: 0px;
+color: #00203FFF;
+animation: aboutb 1s infinite;
+animation-direction: alternate;
+top:25%;
+padding: 2px 20px;
+border: 4px outset white;
+}
+
+@keyframes aboutb {
+  
+   0%  {
+   
+   left: 36%;font-size: 20px;}
+
+  100% {left: 36%; font-size: 20px;}
+  
+
+
+}
+
+
+/*--------------- Midea query ( 900px )------------------*/
+
+@media only screen and (max-width: 900px) {
+  
+  
+  .about{
+  display: none;}
+  
+ }
+  
+
+
+/***************************************************
+----------------- N A V ( C O N T A C ) - ------------
+*****************************************************/
+
+.contact{
+top:25%;
+position: relative;
+font-size: 0px;
+color: #00203FFF;
+background-color: #ADEFD1FF;
+border-radius: 10px 10px;
+border: 4px outset white;
+padding: 1px 20px;
+animation: cnb 3s infinite;
+animation-direction: alternate;
+
+}
+
+@keyframes cnb {
+  
+   0%  {
+   
+   left: 66%; font-size: 20px;}
+
+  100% {left: 66%;font-size: 20px; }
+  
+
+
+}
+
+
+
+/*--------------- Midea query ( 900px )------------------*/
+
+@media only screen and (max-width: 900px) {
+ 
+  
+  .contact{
+  display: none;}
+  
+  }
+
+/***************************************************
+---------   N A V ( N E W S ) ---------------------
+*****************************************************/
+
+
+.news{
+font-size: 0px;
+position: relative;
+font-size: 0px;
+top:25%;
+border-radius: 10px 10px;
+color:#00203FFF;
+background-color: #ADEFD1FF;
+animation: newsb 3s infinite;
+animation-direction: alternate;
+border: 4px outset white;
+padding: 1px 20px;
+}
+
+@keyframes newsb {
+  
+   0%  {
+   
+   left: 63%; font-size: 20px;}
+
+  100% {left: 63%;font-size: 20px;}
+  
+
+
+}
+
+
+
+
+/*--------------- Midea query ( 900px )------------------*/
+
+@media only screen and (max-width: 900px) {
+  
+  .news{
+  display: none;}
+  
+   }
+  
+  
+
+/***************************************************
+-------------- B O D Y  ( H  O M E )------------------
+*****************************************************/
+#homem{
+
+display: none; }
+
+
+#home1{
+
+height: 560px;
+margin-top: 5%;
+margin-right: 1%;
+border-radius: 50px 50px 50px 50px;
+background-color:#00203FFF;
+border: 4px outset white;
+
+
+
+animation:  home1a 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes home1a {
+  from {margin-top: 5%;   margin-left: 100%;}
+  to   {margin-top: 5%;   margin-right: 1%;}
+}
+
+
+/*--------------- Midea query ( 900px )------------------*/
+
+@media only screen and (max-width: 900px) {
+
+
+#home1{display: none;}
+ 
+ #homem
+{
+display: block;
+margin-top: 15%;
+height: 710px;
+width:376px;
+margin-left:-1.2%;
+border-radius:0px 0px 10px 10px;
+background-color:#00203FFF;
+border: 4px outset white;
+animation-name: homema;
+  animation-duration: 1s;
+}
+
+@keyframes homema {
+  from {margin-top: 15%;   width:0px;}
+  to   {margin-top: 15%;   width:376px; }
+}
+
+}
+
+
+/***************************************************
+--------------M O V I  G   T E X T-----------
+*****************************************************/
+
+/*--------------- Midea query ( 900px )------------------*/
+
+
+@media only screen and (max-width: 900px) {
+
+
+#movingtext1{
+
+
+margin-top: -200%;
+
+margin-left:3%;
+color: red;
+font-size: 21px;
+animation: movtx1 0.6s infinite;
+animation-direction: alternate;
+}
+
+@keyframes movtx1 {
+  from {color: white;}
+  to   {color: white; }
+}
+
+
+}
+
+
+
+#menu2{
+
+height: 375px;
+margin-top: 20%;
+
+border-radius: 10px 10px;
+background-color:#00203FFF;
+border: 4px outset white;
+
+
+
+}
+
+
+
+#branch{
+
+
+
+margin-top: -8%;
+margin-left: 23%;
+color: red;
+font-size: 25px;
+
+
+}
+
+
+#buttona1{
+
+position: relative;
+top: 5%;
+margin-left: 3%;
+color: blue;
+font-size: 41px;
+border-radius: 100px;
+
+
+}
+
+
+#buttona2{
+display :none;
+position: relative;
+top: 5%;
+margin-left: 3%;
+color: yellow;
+font-size: 41px;
+border-radius: 100px;
+
+
+}
+
+
+
+#btech{
+box-shadow: 0 7px red;
+color: red;
+width:90%;
+margin-left: 4%;
+font-size: 25px;
+height: 45px;
+margin-top: 10%;
+ text-align: center;
+border-radius: 10px 10px;
+background-color: white;
+border: 4px outset black;
+
+
+
+}
+
+
+#biotech{
+color: red;
+font-size: 25px;
+height: 45px;
+margin-top: 5%;
+width:90%;
+margin-left: 4%;
+ text-align: center;
+border-radius: 10px 10px;
+background-color: white;
+border: 4px outset black;
+box-shadow: 0 7px red;
+
+}
+
+
+#bpharam{
+
+color: red;
+font-size: 25px;
+height: 45px;
+width:90%;
+margin-left: 4%;
+margin-top: 6%;
+ text-align: center;
+border-radius: 10px 10px;
+background-color: white;
+border: 4px outset black;
+box-shadow: 0 7px red;
+}
+
+
+#other{
+color: red;
+font-size: 25px;
+height: 45px;
+width:90%;
+margin-left: 4%;
+margin-top: 6%;
+margin-left: 4%;
+ text-align: center;
+border-radius: 10px 10px;
+background-color: white;
+border: 4px outset black;
+box-shadow: 0 7px red;
+
+}
+
+#semester{
+
+display : none;
+margin-top: -8%;
+margin-left: 23%;
+color: red;
+font-size: 25px;
+
+
+
+
+}
+
+#sem1 {
+display: none;
+color: red;
+font-size: 25px;
+height: 45px;
+width:40%;
+margin-left: 4%;
+margin-top: -76%;
+margin-left: 4%;
+ text-align: center;
+border-radius: 10px 10px;
+background-color: white;
+border: 4px outset black;
+box-shadow: 0 7px red;
+
+}
+
+#sem2 {
+display: none;
+color: red;
+font-size: 25px;
+height: 45px;
+width:40%;
+margin-left: 4%;
+margin-top: 8%;
+margin-left: 4%;
+ text-align: center;
+border-radius: 10px 10px;
+background-color: white;
+border: 4px outset black;
+box-shadow: 0 7px red;
+}
+
+#sem3 {
+display: none;
+color: red;
+font-size: 25px;
+height: 45px;
+width:40%;
+margin-left: 10%;
+margin-top: 8%;
+margin-left: 4%;
+ text-align: center;
+border-radius: 10px 10px;
+background-color: white;
+border: 4px outset black;
+box-shadow: 0 7px red;
+}
+
+#sem4 {
+
+display: none;
+color: red;
+font-size: 25px;
+height: 45px;
+width:40%;
+margin-top: 8%;
+margin-left: 4%;
+ text-align: center;
+border-radius: 10px 10px;
+background-color: white;
+border: 4px outset black;
+box-shadow: 0 7px red;
+}
+
+#sem5 {
+display: none;
+color: red;
+font-size: 25px;
+height: 45px;
+width:40%;
+margin-left: 55%;
+margin-top: -72%;
+ text-align: center;
+border-radius: 10px 10px;
+background-color: white;
+border: 4px outset black;
+box-shadow: 0 7px red;
+}
+
+#sem6 {
+display: none;
+color: red;
+font-size: 25px;
+height: 45px;
+width:40%;
+margin-left: 55%;
+margin-top: 8%;
+ text-align: center;
+border-radius: 10px 10px;
+background-color: white;
+border: 4px outset black;
+box-shadow: 0 7px red;
+}
+
+#sem7 {
+display: none;
+color: red;
+font-size: 25px;
+height: 45px;
+width:40%;
+margin-left: 55%;
+margin-top: 8%;
+ text-align: center;
+border-radius: 10px 10px;
+background-color: white;
+border: 4px outset black;
+box-shadow: 0 7px red;
+}
+
+#sem8 {
+display: none;
+color: red;
+font-size: 25px;
+height: 45px;
+width:40%;
+margin-left: 55%;
+margin-top: 8%;
+ text-align: center;
+border-radius: 10px 10px;
+background-color: white;
+border: 4px outset black;
+box-shadow: 0 7px red;
+}
+
+
+/***************************************************
+-------------- D o w n d load C  V-----------
+*****************************************************/
+
+
+#dncv{
+height: 25px;
+text-align: center;
+color:#00203FFF;
+width: 200px;
+border: 4px outset WHITE;
+margin-top: 1%;
+margin-left: 5%;
+background-color:#ADEFD1FF;  
+border-radius: 50px 50px;
+font-size: 23px;
+
+
+}
+
+
+/*--------------- Midea query ( 900px )------------------*/
+
+@media only screen and (max-width: 900px) {
+  
+  
+#dncv{
+height: 25px;
+text-align: center;
+text-color:#00203FFF;
+width: 60%;
+border: 4px outset WHITE;
+margin-top: 95%;
+margin-left: 20%;
+background-color:#ADEFD1FF; 
+border-radius: 50px 50px;
+font-size: 23px;
+
+
+}
+
+  
+  
+  }
+  
+  
+    
+  
+/***************************************************
+-------------- S T A T E M E N T -------------------
+*****************************************************/
+
+/*--------------- Midea query ( 900px )------------------*/
+
+@media only screen and (max-width: 900px) {
+
+
+#stmt{
+
+
+margin-top: 30%;
+left: 50px;
+height:100px;
+width: 100%;
+text-align: center;
+font-size: 30px;
+color: #ADEFD1FF;
+    }
+    
+  #idea{
+
+  text-align: center;
+  color: #ADEFD1FF;
+  font-size: 25px;
+  margin-left: 4%;
+  width: 90%;
+  margin-top: 90%;
+  border-radius: 90px 0px;}  
+
+}
+
+/***************************************************
+--------------  S L I D E S H O W -----------
+*****************************************************/
+
+#slides{
+
+
+height: 400px;
+width: 350px;
+border radius: 0px 50px;
+border: 4px outset #ADEFD1FF;
+margin-top: -41%;
+margin-left: 1%;
+border-radius: 10px 10px;
+animation: slides 10s infinite;
+animation-direction: alternate;
+
+}
+
+@keyframes slides {
+  
+   0%   {background: url(Pictutres/MIET1.webp); background-repeat: no-repeat; background-size: 350px 400px; }
+   25%  {background: url(Pictutres/profilepic.jpg); background-repeat: no-repeat; background-size: 350px 400px; }
+   50%  {background: url(Pictutres/profilepic.jpg); background-repeat: no-repeat; background-size: 350px 400px; }
+   75%  {background: url(Pictutres/profilepic.jpg); background-repeat: no-repeat; background-size: 350px 400px; }
+   100% {background: url(Pictutres/profilepic.jpg); background-repeat: no-repeat; background-size: 350px 400px; }
+  
+
+
+}
+
+
+/*--------------- Midea query ( 900px )------------------*/
+
+
+@media only screen and (max-width: 900px) {
+
+#slides{
+
+
+height: 250px;
+border: 4px outset white;
+margin-top: -345%;
+
+width:100%;
+border-radius: 0px 0px 10px 10px;
+animation: slides 16s 16s 16s 16s infinite;
+animation-direction: alternate;
+
+}
+
+@keyframes slides {
+  
+   0%   {background: url(Pictutres/MIET1.webp); background-repeat: no-repeat; background-size: 380px 300px; margin-left:-1.2%;}  
+   25%   {background: url(Pictutres/MIET1.webp); background-repeat: no-repeat; background-size: 380px 300px; margin-left:-1.2%;}
+   50%  {background: url(Pictutres/MIET2.jpg); background-repeat: no-repeat; background-size: 380px 300px; margin-left:-1.2%;}
+   75%  {background: url(Pictutres/miet3.jpg); background-repeat: no-repeat; background-size: 380px 300px; margin-left:-1.2%;}
+   100%  {background: url(Pictutres/miet4.jpg); background-repeat: no-repeat; background-size: 380px 300px; margin-left:-1.2%;}
+  
+
+
+}
+
+
+
+}
+
+
+
+
+/***************************************************
+-------------- B O D Y  ( A B O U T )------------------
+*****************************************************/
+
+
+#about1{
+
+margin-top: 10px;
+width: 100%;
+height:585px;
+border-radius:90px 0px;
+background-color:#101820FF;
+animation: contacta 3s;
+animation-fill-mode: forwards;
+}
+
+@keyframes homea {
+  from {width: 0%; height:5px;}
+  
+  
+  to {width: 100%; height:585px; background-color:#101820FF;}
+}
+
+
+
+
+#aboutname{
+ 
+ position : relative;
+ color: white;
+ top: 300px;
+ left: 30%;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+/***************************************************
+-------------- B O D Y  ( C O N T A C T )------------------
+*****************************************************/
+
+
+#contact1{
+
+margin-top: 10px;
+width: 100%;
+height:585px;
+border-radius:90px 0px;
+background-color:#101820FF;
+
+
+}
+
+#contactname{
+ 
+ position : relative;
+ color: white;
+ top: 300px;
+ left: 30%;
+ 
+}
+
+
+
+/***************************************************
+-------------- B O D Y  ( N E W S )------------------
+*****************************************************/
+
+
+#news1{
+
+margin-top: 10px;
+width: 100%;
+height:585px;
+border-radius:90px 0px;
+background-color:#101820FF;
+
+}
+
+#newsname{
+ 
+ position : relative;
+ color: white;
+ top: 300px;
+ left: 30%;
+ 
+}
+
+
+
+
+/***************************************************
+------- M E D I A  Q U R I E S ---------1200px-------
+*****************************************************/
+
+
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: lightblue;
+  }
+  
+  /*  ABOUT nav wal */
+  @keyframes mymovea {
+  from {left: 10%; top: 11%;}
+  to {left: 31%; top: 11%; padding: 2px 15px;
+background-color: #101820FF;
+border-radius: 25px 0px;
+box-shadow: 0 3px white; }
+}
+
+  /*  CONTACT nav wala */
+@keyframes mymoveb {
+  from {left: 10%; top: 11%;}
+  to {left: 64%; top: 11%; padding: 2px 15px;
+background-color: #101820FF;
+border-radius: 25px 0px;
+box-shadow: 0 3px white; }
+}
+
+
+  /*  NEWS  nav wala*/
+@keyframes mymovec {
+  from {left: 10%; top: 11%;}
+  to {left: 61%; top: 11%; padding: 2px 15px;
+background-color: #101820FF;
+border-radius: 25px 0px;
+box-shadow: 0 3px white; }
+}
+
+
+  /*  HOME  nav wala*/
+@keyframes mymoved {
+  from {left: 10%; top: 11%;}
+  to {left: 45%; top: 11%; padding: 2px 15px;
+background-color: #101820FF;
+border-radius: 25px 0px;
+box-shadow: 0 3px white; }
+}
+
+}
+
+
